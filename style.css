@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #56191D;
+    min-height: 100vh;
+    position: relative;
+    }
+    
+    @font-face {
+    font-family: 'ToppanBunkyuGothic';
+    src: local('Toppan Bunkyu Gothic');
+    }
+    
+    .portfolio-image {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    }
+    
+    .portfolio-image img {
+    width: 1600px;
+    height: 1000px;
+    display: block;
+    object-fit: contain;
+    }
+    
+    .second-image {
+    position: absolute;
+    top: 59%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    }
+    
+    .second-image img {
+    width: 1200px;
+    height: 700px;
+    display: block;
+    object-fit: contain;
+    }
+    
+    .third-image {
+    position: absolute;
+    top: 78%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    }
+    
+    .third-image img {
+    width: 300px;
+    height: 175px;
+    display: block;
+    object-fit: contain;
+    }
+    
+    .fourth-image {
+    position: absolute;
+    top: 7%;
+    left: 4%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    }
+    
+    .fourth-image img {
+    width: 100px;
+    height: 60px;
+    display: block;
+    object-fit: contain;
+    }
+    
+    .fifth-image {
+    position: absolute;
+    top: 8%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    }
+    
+    .fifth-image img {
+    width: 210px;
+    height: 120px;
+    display: block;
+    object-fit: contain;
+    }
+    
+    .sixth-image, .seventh-image, .eighth-image {
+    position: absolute;
+    bottom: 2%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    }
+    
+    .sixth-image {
+    left: 10%;
+    }
+    
+    .seventh-image {
+    left: 30%;
+    }
+    
+    .eighth-image {
+    left: 50%;
+    }
+    
+    .sixth-image img, .seventh-image img, .eighth-image img {
+    width: 270px;
+    height: 150px;
+    display: block;
+    object-fit: contain;
+    }
+    
+    .image-text {
+    position: absolute;
+    bottom: 52px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #3C2415;
+    font-family: 'ToppanBunkyuGothic', sans-serif;
+    font-weight: 800;
+    font-size: 30.1301pt;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    transition: transform 0.3s ease;
+    }
+    
+    .nav-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    position: relative;
+    }
+    
+    .nav-link:hover img {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+    }
+    
+    .new-image {
+    position: absolute;
+    bottom: -1%;
+    left: 2%;
+    transform: translate(0, -50%);
+    z-index: 2;
+    }
+    
+    .new-image img {
+    width: 370px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    }
+    
+    .final-image {
+    position: absolute;
+    bottom: -3.5%;
+    left: 2%;
+    transform: translate(0, -50%);
+    z-index: 2;
+    }
+    
+    .final-image img {
+    width: 290px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    }
+    
+    .bottom-rectangle {
+    width: 100%;
+    height: 170.6333px;
+    background-color: #000000;
+    position: absolute;
+    bottom: 0;
+    }
