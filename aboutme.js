@@ -17,27 +17,35 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const elements = [
         {
-            selector: '.about-image-10',
+            selector: '.about-image-10', // Instagram
             effect: 'scale',
             click: () => window.open('https://www.instagram.com/analise.pereira/', '_blank')
         },
-        // Add these three new elements
         {
-            selector: '.about-image-27', // about 20.png
+            selector: '.about-image-9', // LinkedIn
+            effect: 'scale',
+            click: () => window.open('https://www.linkedin.com/in/analise-pereira-bba8b42b5/', '_blank')
+        },
+        {
+            selector: '.about-image-8', // Pinterest
+            effect: 'scale',
+            click: () => window.open('https://in.pinterest.com/analiseperiera/', '_blank')
+        },
+        {
+            selector: '.about-image-27', // Work page
             effect: 'opacity',
             click: () => window.location.href = 'mywork.html'
         },
         {
-            selector: '.about-image-28', // about 20 copy.png
+            selector: '.about-image-28', // Contact page
             effect: 'opacity',
             click: () => window.location.href = 'contact.html'
         },
         {
-            selector: '.about-image-7', // about 4.png
+            selector: '.about-image-7', // Home page
             effect: 'scale',
             click: () => window.location.href = 'index.html'
         }
-        // ... rest of your elements
     ];
 
     elements.forEach(({selector, effect, click}) => {
