@@ -142,7 +142,11 @@ window.addEventListener('load', function() {
         });
         document.querySelector('.about-image-28').addEventListener('click', function() {
             window.location.href = 'contact.html';
+
+            document.querySelector('.about-image-7').addEventListener('click', function() {
+            window.location.href = 'index.html';
         });
+
     }
  
     
