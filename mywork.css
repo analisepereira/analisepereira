@@ -1,0 +1,140 @@
+html, body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    width: 100%;
+}
+
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.far-left-image {
+    position: absolute;
+    left: 34%;
+    top: 170px;
+    width: 430px;
+    height: 260px;
+}
+
+.second-image {
+    position: absolute;
+    left: -2%;
+    top: 170px;
+    width: 430px;
+    height: 260px;
+}
+
+.third-image {
+    position: absolute;
+    left: 70%;
+    top: 170px;
+    width: 430px;
+    height: 260px;
+}
+
+.fourth-image {
+    position: absolute;
+    left: -2%;
+    top: 450px;
+    width: 430px;
+    height: 260px;
+}
+
+.fifth-image {
+    position: absolute;
+    left: 34%;
+    top: 450px;
+    width: 430px;
+    height: 260px;
+}
+
+.sixth-image {
+    position: absolute;
+    left: 70%;
+    top: 450px;
+    width: 430px;
+    height: 260px;
+}
+
+.bottom-image {
+    position: absolute;
+    left: -10%;
+    top: 820px;  /* Positioned below the previous row */
+    width: 120%;  /* Slightly over 100% to account for the -2% left position */
+    height: 80px;  /* Reduced height */
+}
+
+.top-left-image {
+    position: absolute;
+    left: -5%;
+    top: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+.text1 {
+    position: absolute;
+    color: #3C2415;
+    font-family: "凸版文久見出しゴシック エクストラボールド", sans-serif;
+    font-size: 35px;
+    font-weight: 570;
+    left: 170px;
+    top: 40px;
+}
+
+.text2 {
+    position: absolute;
+    color: #3C2415;
+    font-family: "凸版文久見出しゴシック エクストラボールド", sans-serif;
+    font-size: 35px;
+    font-weight: 570;
+    left: 520px;
+    top: 40px;
+}
+
+.text3 {
+    position: absolute;
+    color: #3C2415;
+    font-family: "凸版文久見出しゴシック エクストラボールド", sans-serif;
+    font-size: 35px;
+    font-weight: 570;
+    left: 880px;
+    top: 40px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 1px;
+}
+
+.image1 {
+    max-width: 350px;
+    height: 150px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.image2 {
+    width: 350px;
+    height: 150px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.image3 {
+    width: 350px;
+    height: 150px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}

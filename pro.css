@@ -1,0 +1,166 @@
+html, body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    width: 100%;
+    }
+   .container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    }
+   .top-left-image {
+    position: absolute;
+    left: -5%;
+    top: 30px;
+    width: 100px; /* Adjust size as needed */
+    height: 100px;
+    }
+   .text1 {
+    position: absolute;
+    color: #3C2415;
+    font-family: "凸版文久見出しゴシック エクストラボールド", sans-serif;
+    font-size: 35px;
+    font-weight: 570;
+    left: 170px;
+    top: 40px;
+    }
+   .text2 {
+    position: absolute;
+    color: #3C2415;
+    font-family: "凸版文久見出しゴシック エクストラボールド", sans-serif;
+    font-size: 35px;
+    font-weight: 570;
+    left: 520px;
+    top: 40px;
+    }
+   .text3 {
+    position: absolute;
+    color: #3C2415;
+    font-family: "凸版文久見出しゴシック エクストラボールド", sans-serif;
+    font-size: 35px;
+    font-weight: 570;
+    left: 880px;
+    top: 40px;
+    }
+   .image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 1px;
+    }
+   .image1 {
+    max-width: 350px;
+    height: 150px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    }
+   .image2 {
+    width: 350px;
+    height: 150px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    }
+   .image3 {
+    width: 350px;
+    height: 150px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    }
+   
+   
+    #sketch-holder {
+        position: relative;
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #sketch-holder {
+        position: relative;
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #sketch-holder::after {
+        content: "p5.js";
+        white-space: pre;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #C2B59B;
+        font-family: kefa;
+        font-size: 50px;
+        font-weight: 50px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.5s;
+        pointer-events: none;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    #sketch-holder:hover canvas {
+        opacity: 0.2;
+        transition: opacity 0.2s;
+    }
+    
+    #sketch-holder:hover::after {
+        opacity: 1;
+    }
+    .scratch-game {
+        position: relative;
+        width: 700px;
+        display: flex;
+        justify-content: center;
+        transform: translateX(35%);
+        margin-top: 20px;
+    }
+    
+    .scratch-game::after {
+        content: "scratch";
+        white-space: pre;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #C2B59B;
+        font-family: kefa;
+        font-size: 50px;
+        font-weight: 50px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.5s;
+        pointer-events: none;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    .scratch-game:hover iframe {
+        opacity: 0.2;
+        transition: opacity 0.2s;
+    }
+    
+    .scratch-game:hover::after {
+        opacity: 1;
+    }
+    
+    .scratch-game iframe {
+        width: 100%;
+        height: 580px;
+    }
+    .work9 {
+        position: absolute;
+        top: 1620px;
+        width: 120%;
+        height: 80px;
+        z-index: 1;
+    }

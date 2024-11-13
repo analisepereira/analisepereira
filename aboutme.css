@@ -1,0 +1,366 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #56191D;
+    min-height: 360vh;
+}
+.custom-text {
+    pointer-events: auto;
+}
+
+.black-rectangle {
+    position: absolute;
+    width: 100%;
+    height: 270px;
+    background-color: #000000;
+    top: 93%;
+    transform: translateY(-50%);
+    opacity: 1;
+    z-index: 1;
+}
+
+.gray-rectangle {
+    position: absolute;
+    width: 100%;
+    height: 970px;
+    background-color: #545050;
+    top: 255%;
+    transform: translateY(-50%);
+    opacity: 1;
+    z-index: 1;
+}
+
+.about-image {
+    position: absolute;
+    top: 5%;
+    left: 7%;
+    width: 850px;
+    height: 600px;
+    z-index: 3;
+}
+
+.about-image-2 {
+    position: absolute;
+    top: 47%;
+    left: 7%;
+    width: 850px;
+    height: 600px;
+    z-index: 3;
+}
+
+.about-image-3 {
+    position: absolute;
+    top: 89%;
+    left: 7%;
+    width: 850px;
+    height: 600px;
+    z-index: 3;
+}
+
+.about-image-4 {
+    position: absolute;
+    top: 131%;
+    left: 7%;
+    width: 850px;
+    height: 600px;
+    z-index: 3;
+}
+
+.about-image-5 {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    width: 970px;
+    height: 1500px;
+    z-index: 3;
+}
+
+.about-image-6 {
+    position: absolute;
+    top: 14%;
+    left: 27%;
+    width: 970px;
+    height: 1500px;
+    z-index: 3;
+}
+
+.about-image-7 {
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+}
+
+.about-image-8 {
+    position: absolute;
+    top: 4%;
+    right: 20%;
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+}
+
+.about-image-9 {
+    position: absolute;
+    top: 0%;
+    right: 9%;
+    width: 160px;
+    height: 160px;
+    z-index: 3;
+}
+
+.about-image-10 {
+    position: absolute;
+    top: -1%;
+    right: 0%;
+    width: 170px;
+    height: 170px;
+    z-index: 3;
+}
+
+/* Add this to maintain the positioning of the Instagram link */
+.about-image-10 a {
+    position: absolute;
+    top: -1%;
+    right: 0%;
+    width: 170px;
+    height: 170px;
+    z-index: 3;
+}
+
+.about-image-12 {
+    position: absolute;
+    top: 30%;
+    right: 3%;
+    width: 300px;
+    height: 300px;
+    z-index: 3;
+}
+
+.about-image-13 {
+    position: absolute;
+    top: 40%;
+    right: 12%;
+    width: 300px;
+    height: 70px;
+    z-index: 3;
+
+}
+
+.about-image-14 {
+    position: absolute;
+    top: 60%;
+    right: 17%;
+    width: 250px;
+    height: 70px;
+    z-index: 3;
+}
+
+.about-image-15 {
+    position: absolute;
+    top: 97%;
+    right: 5%;
+    width: 150px;
+    height: 150px;
+    z-index: 3;
+}
+
+.custom-text {
+    position: absolute;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    color: #D3C1AF;
+    right: 5%;
+    z-index: 4;
+}
+
+.text-1 {
+    top: 41.5%;
+    right: 13.7%;
+    font-size: 38px;
+}
+
+.text-2 {
+    top: 61.3%;
+    right: 23%;
+}
+
+.text-3 {
+    top: 100%;
+    right: 7%;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.about-image-16 {
+    position: absolute;
+    top: 129%;
+    right: 14%;
+    width: 250px;
+    height: 370px;
+    z-index: 3;
+}
+
+.about-image-17 {
+    position: absolute;
+    top: 150%;
+    right: 1%;
+    width: 150px;
+    height: 130px;
+    z-index: 3;
+}
+
+.about-image-18 {
+    position: absolute;
+    top: 166%;
+    right: 1%;
+    width: 400px;
+    height: 140px;
+    z-index: 3;
+}
+
+.about-image-19 {
+    position: absolute;
+    top: 185%;
+    right: 10%;
+    width: 150px;
+    height: 150px;
+    z-index: 3;
+}
+
+.about-image-20 {
+    position: absolute;
+    top: 185%;
+    left: 7%;
+    width: 850px;
+    height: 100px;
+    z-index: 3;
+}
+
+.about-image-21 {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 3000px;
+    height: 25px;
+    z-index: 3;
+    opacity: 0.5;
+}
+
+.about-image-22 {
+    position: absolute;
+    top: 193%;
+    left: 21%;
+    width: 860px;
+    height: 380px;
+    z-index: 3;
+}
+
+.about-image-23 {
+    position: absolute;
+    top: 230%;
+    right: 5%;
+    width: 1300px;
+    height: 580px;
+    z-index: 3;
+}
+
+.about-image-24 {
+    position: absolute;
+    top: 305%;
+    right: 20%;
+    width: 800px;
+    height: 340px;
+    z-index: 3;
+}
+
+.about-image-25 {
+    position: absolute;
+    top: 250%;
+    left: 2%;
+    width: 510px;
+    height: 890px;
+    z-index: 2;
+}
+
+.about-image-26 {
+    position: absolute;
+    top: 380%;
+    width: 1500px;
+    height: 150px;
+    z-index: 3;
+}
+
+.about-image-27 {
+    position: absolute;
+    top: 7%;
+    left: 30%;
+    transform: translateX(-50%);
+    width: 220px;
+    height: 55px;
+    z-index: 3;
+}
+
+.about-image-28 {
+    position: absolute;
+    top: 7%;
+    left: 55%;
+    transform: translateX(-50%);
+    width: 220px;
+    height: 55px;
+    z-index: 3;
+}
+
+.custom-text.text-4 {
+    top: 8%;
+    left: 30%;
+    transform: translateX(-50%);
+    font-size: 40px;
+    color: #3C2415;
+    text-align: center;
+    z-index: 4;
+    transition: all 0.2s ease;
+    position: absolute;
+    width: auto;
+    white-space: nowrap;
+}
+
+.custom-text.text-4:hover {
+    font-size: 45px;
+    transform: translateX(-50%);
+}
+
+.custom-text.text-5 {
+    top: 8%;
+    left: 55%;
+    transform: translateX(-50%);
+    font-size: 40px;
+    color: #3C2415;
+    text-align: center;
+    z-index: 4;
+    transition: all 0.2s ease;
+    position: absolute;
+    width: auto;
+    white-space: nowrap;
+}
+
+.custom-text.text-5:hover {
+    font-size: 45px;
+    transform: translateX(-50%);
+}
+
+.nav-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    position: relative;
+    }
+    
+    .nav-link:hover img {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+    }

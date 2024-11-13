@@ -9,4 +9,13 @@ document.querySelectorAll('.nav-link').forEach(link => {
         const text = this.querySelector('.image-text');
         text.style.transform = 'translateX(-50%) scale(1)';
     });
+
+    document.querySelector('.sixth-image img').addEventListener('click', function() {
+        window.location.href = 'aboutme.html';
+    });
+   
+    document.querySelector('.seventh-image img').addEventListener('click', function() {
+        window.location.href = 'mywork.html';
+    });
+
 });

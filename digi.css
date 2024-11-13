@@ -1,0 +1,169 @@
+html, body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    width: 100%;
+    }
+   .container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    }
+   .top-left-image {
+    position: absolute;
+    left: -5%;
+    top: 30px;
+    width: 100px; /* Adjust size as needed */
+    height: 100px;
+    }
+   .text1 {
+    position: absolute;
+    color: #3C2415;
+    font-family: "凸版文久見出しゴシック エクストラボールド", sans-serif;
+    font-size: 35px;
+    font-weight: 570;
+    left: 170px;
+    top: 40px;
+    }
+   .text2 {
+    position: absolute;
+    color: #3C2415;
+    font-family: "凸版文久見出しゴシック エクストラボールド", sans-serif;
+    font-size: 35px;
+    font-weight: 570;
+    left: 520px;
+    top: 40px;
+    }
+   .text3 {
+    position: absolute;
+    color: #3C2415;
+    font-family: "凸版文久見出しゴシック エクストラボールド", sans-serif;
+    font-size: 35px;
+    font-weight: 570;
+    left: 880px;
+    top: 40px;
+    }
+   .image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 1px;
+    }
+   .image1 {
+    max-width: 350px;
+    height: 150px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    }
+   .image2 {
+    width: 350px;
+    height: 150px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    }
+   .image3 {
+    width: 350px;
+    height: 150px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    }
+    .digi1 {
+        position: absolute;
+        width: 370px;
+        height: 500px;
+        border-radius: 5px;
+        left: 30px;
+        top: 200px;
+        border: none;
+        outline: none;
+    }
+    .digi2 {
+        position: absolute;
+        width: 370px;
+        height: 560px;
+        border-radius: 5px;
+        left: 430px;
+        top: 200px;
+        border: none;
+        outline: none;
+    }
+
+    .digi3 {
+        position: absolute;
+        width: 330px;  /* Made slightly smaller to match the screenshot */
+        height: 500px;
+        border-radius: 5px;
+        left: 850px;
+        top: 200px;
+        border: none;
+        outline: none;
+    }
+
+    .digi4 {
+        position: absolute;
+        width: 370px;
+        height: 430px;
+        border-radius: 5px;
+        left: 30px;    /* Aligned with digi1 */
+        top: 720px;    /* Adjusted to be below digi1 */
+        border: none;
+        outline: none;
+    }
+
+    .digi5 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        border-radius: 5px;
+        left: 100px;    /* Aligned with digi1 and digi4 */
+        top: 1170px;   /* Below digi4 */
+        border: none;
+        outline: none;
+    }
+
+    .digi6 {
+        position: absolute;
+        width: 400px;
+        height: 590px;
+        border-radius: 5px;
+        left: 430px;    /* Aligned with digi2 */
+        top: 780px;    /* Below digi2 */
+        border: none;
+        outline: none;
+    }
+
+    .digi7 {
+        position: absolute;
+        width: 330px;    /* Same width as digi3 */
+        height: 400px;
+        border-radius: 5px;
+        left: 850px;    /* Aligned with digi3 */
+        top: 720px;     /* Below digi3 */
+        border: none;
+        outline: none;
+    }
+
+    .digi8 {
+        position: absolute;
+        width: 480px;    /* Same width as digi3 and digi7 */
+        height: 500px;
+        border-radius: 5px;
+        left: 750px;    /* Aligned with digi3 and digi7 */
+        top: 1060px;    /* Below digi7 */
+        border: none;
+        outline: none;
+    }
+
+    .work9 {
+        position: absolute;
+        top: 1620px;
+        width: 120%;
+        height: 80px;
+        z-index: 1;
+    }
