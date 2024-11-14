@@ -239,6 +239,31 @@ body {
     width: 850px;
     height: 100px;
     z-index: 3;
+    transition: all 0.3s ease;
+    transform-origin: center center;
+}
+
+.about-image-20:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  
+}
+
+.about-image-22 {
+    position: absolute;
+    top: 193%;
+    left: 21%;
+    width: 860px;
+    height: 380px;
+    z-index: 3;
+    transition: all 0.3s ease;
+    transform-origin: center center;
+}
+
+.about-image-22:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    opacity: 0.5;
 }
 
 .about-image-21 {
@@ -251,6 +276,7 @@ body {
     opacity: 0.5;
 }
 
+
 .about-image-22 {
     position: absolute;
     top: 193%;
@@ -258,6 +284,14 @@ body {
     width: 860px;
     height: 380px;
     z-index: 3;
+    transition: all 0.3s ease;
+    transform-origin: center center;
+}
+
+.about-image-22:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    opacity: 0.5;
 }
 
 .about-image-23 {
@@ -267,6 +301,13 @@ body {
     width: 1300px;
     height: 580px;
     z-index: 3;
+    transition: all 0.3s ease;
+    transform-origin: center center;
+}
+
+.about-image-23:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .about-image-24 {
@@ -276,8 +317,14 @@ body {
     width: 800px;
     height: 340px;
     z-index: 3;
+    transition: all 0.3s ease;
+    transform-origin: center center;
 }
 
+.about-image-24:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
 .about-image-25 {
     position: absolute;
     top: 250%;
@@ -363,4 +410,21 @@ body {
     .nav-link:hover img {
     opacity: 0.8;
     transition: opacity 0.3s ease;
+    }
+    .about-image-25 {
+        position: absolute;
+        top: 250%;
+        left: 2%;
+        width: 510px;
+        height: 890px;
+        z-index: 2;
+        transition: all 0.3s ease;
+        transform-origin: center center;
+    }
+    
+    .about-image-25:hover {
+        transform: scale(1.1);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+        cursor: pointer;
+        opacity: 0.5;
     }
